@@ -22,24 +22,7 @@ int main()
 }
 ```
 ## OUTPUT:
-![Screenshot 2025-04-27 150453](https://github.com/user-attachments/assets/29a798f9-c78d-41cc-ac44-4d603932b380)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/3a11c923-a118-4c7d-922f-19c611d504f7)
 
 ## RESULT:
 Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
@@ -60,33 +43,23 @@ Write a C program to read A values and check whether A is positive number or not
 # PROGRAM:
 ```
 #include <stdio.h>
-int main()
+
+int main() {
+    int A;
+    scanf("%d", &A);
+    if (A > 0)
+ {
+   printf("%d is a positive number.\n", A);
+    }
+else
 {
-    int a;
-    scanf("%d",&a);
-    if (a>=0)
-    {
-        printf("Number is positive.");
-    }
-    else
-    {
-        printf("Number is negative.");
-    }
-    return 0;
+printf("%d is not a positive number.\n", A);
+ }
+return 0;
+}
 ```
 # OUTPUT:
-![Screenshot 2025-04-27 150612](https://github.com/user-attachments/assets/4c2719a9-5873-4b19-be5d-e23876ffc3b8)
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/c21965e4-9c6d-4e20-b2c9-f2ad48871cc1)
 
 # RESULT:
 Thus the program to read A values and check whether A is positive number or not has been executed successfully.
@@ -121,16 +94,9 @@ int main()
 }
 ```
 
+   
 ## OUTPUT:
-![Screenshot 2025-04-27 150902](https://github.com/user-attachments/assets/3b38b412-6874-4c58-9786-df09dc6c51af)
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/a18169f1-b2e5-4376-b9cf-45971b67eeaf)
 
 ## RESULT:
 Thus the program to find minimum between two fraction numbers using conditional operator or ternary operator has been executed successfully.
@@ -154,27 +120,16 @@ Write a C program to check whether the input value is equal to 1 using simple if
 ## PROGRAM:
 ```
 #include <stdio.h>
-int main(){
+int main()
+{
     int a;
     scanf("%d",&a);
     if(a==1)
        printf("TRUE");
-       
-   
 }
 ```
-
 ## OUTPUT:
-![Screenshot 2025-04-27 151028](https://github.com/user-attachments/assets/2b3034da-0a5a-42cd-a991-3a5083db34da)
-
-
-
-
-
-
-
-
-	
+![image](https://github.com/user-attachments/assets/ee9cbb05-aae6-4041-abb3-24b6e7d29e9f)
 
 ## RESULT:
 Thus the program to check whether the input value is equal to 1 using simple if statement has been executed successfully
@@ -233,10 +188,8 @@ int main() {
     return 0;
 }
 ```
-
 ## OUTPUT:
-![Screenshot 2025-04-27 151200](https://github.com/user-attachments/assets/7e4ffd1f-684d-4b6e-b4c4-747226508040)
-
+![image](https://github.com/user-attachments/assets/087fbb5e-e50f-4675-91ba-0b6dcbb79915)
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
