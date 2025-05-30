@@ -88,9 +88,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 int main() {
     float num1, den1, num2, den2;
     float frac1, frac2;
-    printf("Enter numerator and denominator of first fraction: ");
     scanf("%f %f", &num1, &den1);
-    printf("Enter numerator and denominator of second fraction: ");
     scanf("%f %f", &num2, &den2);
     if (den1 == 0 || den2 == 0) {
         printf("Error: Denominator cannot be zero.\n");
