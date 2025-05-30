@@ -84,14 +84,27 @@ Write a program to find minimum between two fraction numbers using conditional o
 ## PROGRAM:
 ```
 #include <stdio.h>
-int main()
-{
-    int a,b,min;
-    scanf("%d%d",&a,&b);
-    min=(a<b)? a:b;
-    printf("Minimum between %d and %d is %d",a,b,min);
+
+int main() {
+    float num1, den1, num2, den2;
+    float frac1, frac2;
+    printf("Enter numerator and denominator of first fraction: ");
+    scanf("%f %f", &num1, &den1);
+    printf("Enter numerator and denominator of second fraction: ");
+    scanf("%f %f", &num2, &den2);
+    if (den1 == 0 || den2 == 0) {
+        printf("Error: Denominator cannot be zero.\n");
+        return 1;
+    }
+    frac1 = num1 / den1;
+    frac2 = num2 / den2;
+    (frac1 < frac2)
+        ? printf("Minimum fraction is: %.2f/%.2f = %.2f\n", num1, den1, frac1)
+        : printf("Minimum fraction is: %.2f/%.2f = %.2f\n", num2, den2, frac2);
+
     return 0;
 }
+
 ```
 
    
